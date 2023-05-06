@@ -1,4 +1,2 @@
-import studentRepo from "./studentRepo.js";
-import userRepo from "./userRepo.js";
-
-export { studentRepo, userRepo };
+import {userRepo} from "./userRepo.js";
+export { userRepo };

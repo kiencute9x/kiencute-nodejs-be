@@ -1,7 +1,5 @@
-import studentsRouter from './students.js'
-import userRouter from './users.js'
+import userRouter from './userRouter.js'
 
 export {
-    userRouter,
-    studentsRouter
+    userRouter
 }

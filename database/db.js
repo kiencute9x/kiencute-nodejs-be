@@ -20,6 +20,7 @@ async function connect() {
     } else if (code == "ENOTFOUND") {
       throw new Exception(Exception.WRONG_CONNECTION_STRING);
     } else{
+      print("Connect mongoose Failed" + error, OutputType.ERROR);
       throw new Exception(Exception.CANNOT_CONNECT_MONGODB);
     }
   }
