@@ -82,6 +82,4 @@ updateById: async (id, data) => {
 deleteById: async (id) => {
   return User.findByIdAndDelete(id);
 }
-
-
 };

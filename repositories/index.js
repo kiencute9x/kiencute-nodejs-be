@@ -1,2 +1,3 @@
 import {userRepo} from "./userRepo.js";
-export { userRepo };
+import {fcmTokenRepository} from "./FcmTokenRepository.js";
+export { userRepo , fcmTokenRepository };
