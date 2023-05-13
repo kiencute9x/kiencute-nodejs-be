@@ -37,7 +37,7 @@ class FcmTokenController {
     };
   
     try {
-      const response = await admin.messaging().sendToDevice(registrationToken, payload);
+      const response = await admin.messaging().send(registrationToken, payload);
       console.log('Successfully sent message:', response);
       res.status(200).json({ message: 'Notification sent successfully!' });
     } catch (error) {
